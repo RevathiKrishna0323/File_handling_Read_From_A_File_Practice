@@ -12,7 +12,8 @@ import java.io.IOException;
 
 public class ShoppingListReader {
     private static final String FILE_NAME = "src/main/resources/data/ShoppingList.csv";
-    public void readShoppingList(){
+
+    public static void readShoppingList() {
         // declare and initiaise file input stream object
         try {
             FileInputStream fileInputStream = new FileInputStream(FILE_NAME);
@@ -20,7 +21,8 @@ public class ShoppingListReader {
             int charecter;
             //use read() method from FileInputStream class to read data
             while ((charecter = fileInputStream.read()) != -1) {
-                System.out.println((char)charecter);
+                System.out.print((char) charecter);
+                // instead of println() we say print here
             }
 
         } catch (IOException exception) {

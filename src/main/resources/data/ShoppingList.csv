@@ -1,7 +1,6 @@
-s.no,item name,quantity,price,
-1,monitor,1,17000.0,
-2,keyboard,1,500.0,
-3,mouse,1,300.0,
-4,cpu,1,50000.0,
-5,hard disk,1,10000.0,
-,,,,
+s.no,item name,quantity,price
+1,monitor,1,17000.0
+2,keyboard,1,500.0
+3,mouse,1,300.0
+4,cpu,1,50000.0
+5,hard disk,1,10000.0
